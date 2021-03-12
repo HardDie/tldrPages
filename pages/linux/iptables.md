@@ -7,3 +7,6 @@
 
 - Setup NAT
 `iptables -t nat -A POSTROUTING -o {{interface}} -j MASQUERADE`
+
+- LOG packages
+`iptables -A INPUT -j LOG --log-prefix "PREFIX: "`
