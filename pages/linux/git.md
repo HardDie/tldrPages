@@ -19,3 +19,15 @@
 
 - Push local branch with different name
 `git push origin {{localName}}:{{remoteName}}`
+
+- Create patch file
+`git diff --no-prefix > {{some.patch}}`
+
+- Apply patch
+`patch -p0 < {{some.patch}}`
+
+- Create path file with prefix
+`git diff > {{some.patch}`
+
+- Apply path file with prefix
+`patch -p1 < {{some.patch}}`
