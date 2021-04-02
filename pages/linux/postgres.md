@@ -17,3 +17,9 @@
 
 - Expand an array
 `unnest({{array}})`
+
+- Number of line
+`SELECT row_number() OVER (), {{id}} FROM {{some.table}}`
+
+- Update values
+`UPDATE {{some.table}} SET {{column=value}} WHERE {{id=5}}`
