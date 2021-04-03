@@ -5,6 +5,9 @@
 - Create new user
 `useradd -m -g users -G wheel {{username}}`
 
+- Remove user and his home directory
+`userdel -r {{username}}`
+
 - Add user to group
 `usermod -a -G {{groupname}} {{username}}`
 
