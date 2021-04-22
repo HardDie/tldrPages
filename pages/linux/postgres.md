@@ -23,3 +23,8 @@
 
 - Update values
 `UPDATE {{some.table}} SET {{column=value}} WHERE {{id=5}}`
+
+- Create index
+`CREATE INDEX {{index_name_idx}} ON {{some.table}} USING gin (lower({{field}}) gin_trgm_ops)`
+`CREATE INDEX {{index_name_idx}} ON {{some.table}} ({{field}})`
+`CREATE UNIQUE INDEX {{index_name_uidx}} ON {{some.table}} ({{field}})`
