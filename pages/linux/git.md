@@ -31,3 +31,6 @@
 
 - Apply path file with prefix
 `patch -p1 < {{some.patch}}`
+
+- Change commit author
+`git commit --amend --author="{{Name}} <{{email}}>"`
