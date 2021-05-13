@@ -28,3 +28,7 @@
 `CREATE INDEX {{index_name_idx}} ON {{some.table}} USING gin (lower({{field}}) gin_trgm_ops)`
 `CREATE INDEX {{index_name_idx}} ON {{some.table}} ({{field}})`
 `CREATE UNIQUE INDEX {{index_name_uidx}} ON {{some.table}} ({{field}})`
+
+- Stop pid
+`SELECT pg_cancel_backend({{pid}})`
+`SELECT pg_terminate_backend({{pid}})`
