@@ -25,3 +25,6 @@
 
 - Sort packets by size
 `expac -S -H M '%k\t%n' | sort -h`
+
+- Check which packet own file
+`yay -Qo {{/path/to/file}}`
