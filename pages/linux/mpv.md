@@ -10,3 +10,6 @@
 
 - Hardware acceleration
 `ctrl + h`
+
+- Use external audio
+`mpv {{video.mkv}} --audiofile={{audio.ac3}}`
