@@ -8,3 +8,6 @@
 
 - Unfold
 `zd`
+
+- Count selected lines
+`g C-g`
