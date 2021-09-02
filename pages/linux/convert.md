@@ -22,3 +22,6 @@
 
 - Rotate image
 `convert {{image.png}} -rotate 90 {{image2.png}}`
+
+- Convert from PNG to JPG with white alpha channel
+`convert -flatten {{image.png}} {{image.jpg}}`
