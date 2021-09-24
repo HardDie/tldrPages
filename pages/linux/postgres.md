@@ -32,3 +32,6 @@
 - Stop pid
 `SELECT pg_cancel_backend({{pid}})`
 `SELECT pg_terminate_backend({{pid}})`
+
+- Disable pager
+`\pset pager 0`
