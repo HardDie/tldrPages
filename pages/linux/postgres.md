@@ -35,3 +35,9 @@
 
 - Disable pager
 `\pset pager 0`
+
+- Add FOREIGN KEY
+`ALTER TABLE {{some.table}} ADD CONSTRAINT {{table_external_id_fkey}} FOREIGN KEY ({{external_id}}) REFERENCES {{parent_table(id)}}`
+
+- Drop FOREIGN KEY
+`ALTER TABLE {{some.table}} DROP CONSTRAINT {{table_external_id_fkey}}`
