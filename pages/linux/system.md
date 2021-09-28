@@ -5,6 +5,9 @@
 - Show boot log
 `journalctl -b -p 3`
 
+- Show full systemd process log
+`journalctl -u {{name.service}}`
+
 - Show all failed services
 `systemctl --failed -all`
 
