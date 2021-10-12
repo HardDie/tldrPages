@@ -13,3 +13,9 @@
 
 - Remove current line in output
 `echo -en \r`
+
+- Is directory
+`if [[ -d {{name}} ]]`
+
+- Is file
+`if [[ -f {{name}} ]]`
