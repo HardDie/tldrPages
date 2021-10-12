@@ -10,7 +10,7 @@
 `linux /vmlinuz-linux`
 `initrd /intel-ucode.img`
 `initrd /initramfs-linux.img`
-`options root=PARTUID={{00000000-0000-0000-0000-000000000000}} rw`
+`options root=PARTUUID={{00000000-0000-0000-0000-000000000000}} rw`
 
 - /boot/loader/loader.conf
 `default arch`
