@@ -11,3 +11,9 @@
 
 - Count selected lines
 `g C-g`
+
+- Increase
+`C-a`
+
+- Decrease
+`C-x`
