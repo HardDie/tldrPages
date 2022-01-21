@@ -13,3 +13,6 @@
 
 - Use external audio
 `mpv {{video.mkv}} --audiofile={{audio.ac3}}`
+
+- Use external subtitles
+`mpv {{video.mkv}} --sub-file={{sub.srt}}`
