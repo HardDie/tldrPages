@@ -41,3 +41,6 @@
 
 - Drop FOREIGN KEY
 `ALTER TABLE {{some.table}} DROP CONSTRAINT {{table_external_id_fkey}}`
+
+- Add column
+`ALTER TABLE {{some.table}} ADD COLUMN {{name INT}};`
