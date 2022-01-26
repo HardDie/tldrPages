@@ -13,3 +13,15 @@
 
 - Format time "YYYY-MM-DD HH:MM:SS"
 `2006-01-02 15:04:05`
+
+- Register pprof
+`routes := mux.NewRouter()`
+`DebugRoute := routes.PathPrefix("/debug").Subrouter()`
+`DebugRoute.HandleFunc("/pprof", http.HandlerFunc(pprof.Index))`
+`DebugRoute.HandleFunc("/pprof/cmdline", http.HandlerFunc(pprof.Cmdline))`
+`DebugRoute.HandleFunc("/pprof/profile", http.HandlerFunc(pprof.Profile))`
+`DebugRoute.HandleFunc("/pprof/symbol", http.HandlerFunc(pprof.Symbol))`
+`DebugRoute.Handle("/pprof/heap", pprof.Handler("heap"))`
+`DebugRoute.Handle("/pprof/block", pprof.Handler("block"))`
+`DebugRoute.Handle("/pprof/goroutine", pprof.Handler("goroutine"))`
+`DebugRoute.Handle("/pprof/threadcreate", pprof.Handler("threadcreate"))`
