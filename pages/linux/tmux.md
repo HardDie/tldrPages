@@ -7,3 +7,9 @@
 
 - Send command in all tmux panes
 `:setw synchronize-panes on`
+
+- Rename session
+`prefix + $`
+
+- Rename window
+`prefix + ,`
