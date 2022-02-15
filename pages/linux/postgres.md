@@ -44,3 +44,6 @@
 
 - Add column
 `ALTER TABLE {{some.table}} ADD COLUMN {{name INT}};`
+
+- Count elemnt by window function
+`SELECT COUNT(*) OVER (PARTITION BY id) FROM {{some.table}}`
