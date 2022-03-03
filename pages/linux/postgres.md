@@ -36,14 +36,17 @@
 - Disable pager
 `\pset pager 0`
 
-- Add FOREIGN KEY
+- FOREIGN KEY
 `ALTER TABLE {{some.table}} ADD CONSTRAINT {{table_external_id_fkey}} FOREIGN KEY ({{external_id}}) REFERENCES {{parent_table(id)}}`
-
-- Drop FOREIGN KEY
 `ALTER TABLE {{some.table}} DROP CONSTRAINT {{table_external_id_fkey}}`
 
-- Add column
+- Column
 `ALTER TABLE {{some.table}} ADD COLUMN {{name INT}};`
+`ALTER TABLE {{some.table}} DROP COLUMN {{name}};`
+
+- NOT NULL
+`ALTER TABLE {{some.table}} ALTER COLUMN {{name}} SET NOT NULL;`
+`ALTER TABLE {{some.table}} ALTER COLUMN {{name}} DROP NOT NULL;`
 
 - Count elemnt by window function
 `SELECT COUNT(*) OVER (PARTITION BY id) FROM {{some.table}}`
