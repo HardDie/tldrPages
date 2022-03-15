@@ -43,6 +43,7 @@
 - Column
 `ALTER TABLE {{some.table}} ADD COLUMN {{name INT}};`
 `ALTER TABLE {{some.table}} DROP COLUMN {{name}};`
+`ALTER TABLE {{some.table}} RENAME COLUMN {{name}} TO {{new_name}};`
 
 - NOT NULL
 `ALTER TABLE {{some.table}} ALTER COLUMN {{name}} SET NOT NULL;`
