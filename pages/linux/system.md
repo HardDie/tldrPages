@@ -5,6 +5,9 @@
 - Show boot log
 `journalctl -b -p 3`
 
+- Show poweroff log
+`jour journalctl -b -1`
+
 - Show full systemd process log
 `journalctl -u {{name.service}}`
 
