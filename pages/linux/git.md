@@ -34,3 +34,6 @@
 
 - Change commit author
 `git commit --amend --author="{{Name}} <{{email}}>"`
+
+- Add submodule
+`git submodule add {{url}} {{path}}`
