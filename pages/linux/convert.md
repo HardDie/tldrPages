@@ -25,3 +25,6 @@
 
 - Convert from PNG to JPG with white alpha channel
 `convert -flatten {{image.png}} {{image.jpg}}`
+
+- Resize pixelart
+`convert -filter point -resize 200% {{src.png}} {{dst.png}}`
