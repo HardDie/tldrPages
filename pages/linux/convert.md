@@ -28,3 +28,7 @@
 
 - Resize pixelart
 `convert -filter point -resize 200% {{src.png}} {{dst.png}}`
+
+- Split image into parts
+`convert -crop {{3x3@}} {{in.png}} {{out-%d.png}}`
+`convert -crop {{420x420}} {{in.png}} {out-%d.png}}`
