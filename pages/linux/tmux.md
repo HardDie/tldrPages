@@ -13,3 +13,13 @@
 
 - Rename window
 `prefix + ,`
+
+- Switch panes
+`prefix + {`
+
+- Switch layout
+`prefix + Space`
+
+- Switch to next / previous pane
+`prefix + o`
+`prefix + ;`
