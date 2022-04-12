@@ -12,8 +12,9 @@
 - Count selected lines
 `g C-g`
 
-- Increase
+- Increase / decrease number
 `C-a`
-
-- Decrease
 `C-x`
+
+- Set syntax
+`set syntax={{type}}`
