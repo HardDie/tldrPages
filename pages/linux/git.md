@@ -27,7 +27,7 @@
 `patch -p0 < {{some.patch}}`
 
 - Create path file with prefix
-`git diff > {{some.patch}`
+`git diff > {{some.patch}}`
 
 - Apply path file with prefix
 `patch -p1 < {{some.patch}}`
@@ -37,3 +37,12 @@
 
 - Add submodule
 `git submodule add {{url}} {{path}}`
+
+- Rebase one branch to another
+`git rebase {{branch}} {{move_branch}}`
+
+- Create branch on commit
+`git branch {{branch}} {{hash}}`
+
+- Move branch to commit
+`git branch --force {{branch}} {{hash}}`
