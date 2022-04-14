@@ -23,3 +23,7 @@
 - Switch to next / previous pane
 `prefix + o`
 `prefix + ;`
+
+- Split vertical / horizontal pane
+`prefix + %`
+`prefix + "`
