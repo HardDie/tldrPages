@@ -25,3 +25,6 @@
 `DebugRoute.Handle("/pprof/block", pprof.Handler("block"))`
 `DebugRoute.Handle("/pprof/goroutine", pprof.Handler("goroutine"))`
 `DebugRoute.Handle("/pprof/threadcreate", pprof.Handler("threadcreate"))`
+
+- Determine which module use an indirect dependency
+`go mod why -m {{module}}`
