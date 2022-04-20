@@ -18,3 +18,6 @@
 
 - Set syntax
 `set syntax={{type}}`
+
+- Move tab
+`:tabm {{1}}`
