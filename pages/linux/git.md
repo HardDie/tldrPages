@@ -11,10 +11,8 @@
 - Always create a merge commit
 `git merge --no-ff`
 
-- Remove remote branch from local repository
-`git {{branch}} -d -r origin/{{branch}}`
-
-- Remove remote branch from remote repo
+- Remove local/remote branch
+`git branch -d -r origin/{{branch}}`
 `git push -d origin {{branch}}`
 
 - Push local branch with different name
@@ -46,3 +44,7 @@
 
 - Move branch to commit
 `git branch --force {{branch}} {{hash}}`
+
+- Remove local/remote tag
+`git tag --delete {{tag}}`
+`git push --delete origin {{tag}}`
