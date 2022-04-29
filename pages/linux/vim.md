@@ -21,3 +21,7 @@
 
 - Move tab
 `:tabm {{1}}`
+
+- Split vertical/horizontal
+`ctrl+w s`
+`ctrl+w v`
