@@ -25,3 +25,6 @@
 - Split vertical/horizontal
 `ctrl+w s`
 `ctrl+w v`
+
+- Sort selected lines
+`:sort`
