@@ -26,5 +26,8 @@
 `ctrl+w s`
 `ctrl+w v`
 
-- Sort selected lines
+- Sort selected lines (straight, reverse, unique, numeric)
 `:sort`
+`:%sort!`
+`:%sort u`
+`:sort n`
