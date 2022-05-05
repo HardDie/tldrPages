@@ -51,3 +51,6 @@
 
 - Count elemnt by window function
 `SELECT COUNT(*) OVER (PARTITION BY id) FROM {{some.table}}`
+
+- Copy table to file
+`\copy (SELECT * FROM {{table}}) TO '{{file}}.csv' WITH CSV DELIMITER ',' HEADER`
