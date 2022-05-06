@@ -28,3 +28,7 @@
 
 - Determine which module use an indirect dependency
 `go mod why -m {{module}}`
+
+- Channel direction read/write
+`ch <-chan int`
+`ch chan<- int`
