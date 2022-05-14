@@ -32,3 +32,8 @@
 - Channel direction read/write
 `ch <-chan int`
 `ch chan<- int`
+
+- Race detection
+`go test -race {{main.go}}`
+`go run -race {{main.go}}`
+`go build -race {{main.go}}`
