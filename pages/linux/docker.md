@@ -7,3 +7,6 @@
 
 - Execute command inside container
 `docker exec -it {{name}} {{command}}`
+
+- Detach from container
+`ctrl-p ctrl-q`
