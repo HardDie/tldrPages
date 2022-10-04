@@ -10,3 +10,9 @@
 `umount {{/mnt/flash}}`
 `ms-sys -n {{/dev/sda1}}`
 `ms-sys -7 {{/dev/sda}}`
+
+- Install openssh and run
+`Start-Service sshd`
+
+- Setup autorun
+`msconfig`
