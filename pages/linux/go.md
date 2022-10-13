@@ -37,3 +37,6 @@
 `go test -race {{main.go}}`
 `go run -race {{main.go}}`
 `go build -race {{main.go}}`
+
+- Clean modules cache
+`go clean -modcache`
