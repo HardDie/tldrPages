@@ -32,3 +32,6 @@
 - Split image into parts
 `convert -crop {{3x3@}} {{in.png}} {{out-%d.png}}`
 `convert -crop {{420x420}} {{in.png}} {out-%d.png}}`
+
+- List of images to pdf
+`convert {{img1.png}} {{img2.png}} {{output.pdf}}`
