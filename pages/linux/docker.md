@@ -19,3 +19,6 @@
 
 - Add a container to the network
 `docker network connect {{network-name}} {{container-name}}`
+
+- How to save changed container
+`docker commit {{container_id}} {{new_image_name}}`
