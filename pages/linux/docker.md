@@ -14,6 +14,9 @@
 - Show logs
 `docker logs {{container_id}}`
 
+- List of networks
+`docker network ls`
+
 - Create network
 `docker network create {{network-name}}`
 
@@ -22,3 +25,6 @@
 
 - How to save changed container
 `docker commit {{container_id}} {{new_image_name}}`
+
+- How to login on private repository
+`docker login`
