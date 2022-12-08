@@ -10,3 +10,6 @@
 
 - Download selected items from torrent
 `aria2c --select-file {{1,3}} {{file.torrent}}`
+
+- Download list of items from file
+`aria2c -i {{file.txt}}`
