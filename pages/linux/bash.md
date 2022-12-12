@@ -19,3 +19,6 @@
 
 - Is file
 `if [[ -f {{name}} ]]`
+
+- Loop
+`for {{val}} in {{{01..10};}} do {{echo $val;}} done`
