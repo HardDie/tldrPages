@@ -16,3 +16,6 @@
 
 - Use external subtitles
 `mpv {{video.mkv}} --sub-file={{sub.srt}}`
+
+- Change speed
+`[] or {}`
