@@ -54,3 +54,6 @@
 
 - Copy table to file
 `\copy (SELECT * FROM {{table}}) TO '{{file}}.csv' WITH CSV DELIMITER ',' HEADER`
+
+- Clean table cascade
+`TRUNCATE {{some.table}} CASCADE;`
