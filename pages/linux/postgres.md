@@ -57,3 +57,6 @@
 
 - Clean table cascade
 `TRUNCATE {{some.table}} CASCADE;`
+
+- How to get table creation command
+`pg_dump -U {{username}} -d {{database}} -t {{table}} --schema-only`
