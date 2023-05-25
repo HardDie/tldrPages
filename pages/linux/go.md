@@ -40,3 +40,6 @@
 
 - Clean modules cache
 `go clean -modcache`
+
+- Benchmark
+`go test -bench=. -count {{5}} -benchtime {{10s}}`
