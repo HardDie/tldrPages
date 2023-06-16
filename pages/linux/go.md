@@ -43,3 +43,6 @@
 
 - Benchmark
 `go test -bench=. -count {{5}} -benchtime {{10s}}`
+
+- Documentation. Add ?m=all to URL to display internal packages
+`godoc -http={{:3000}}`
