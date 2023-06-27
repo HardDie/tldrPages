@@ -31,3 +31,6 @@
 `:%sort!`
 `:%sort u`
 `:sort n`
+
+- Run without plugins
+`vim -u NONE {{file}}`
