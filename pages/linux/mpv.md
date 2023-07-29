@@ -19,3 +19,9 @@
 
 - Change speed
 `[] or {}`
+
+- Show playlist
+`F8`
+
+- Previous / Next item in playlist
+`< or >`
