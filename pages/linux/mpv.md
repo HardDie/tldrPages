@@ -25,3 +25,6 @@
 
 - Previous / Next item in playlist
 `< or >`
+
+- Volume
+`9 or 0`
