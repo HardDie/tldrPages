@@ -48,3 +48,6 @@
 - Remove local/remote tag
 `git tag --delete {{tag}}`
 `git push --delete origin {{tag}}`
+
+- Remove file from git histor
+`git filter-branch --index-filter 'git rm --cached --ignore-unmatch {{path/filename}}' {{first}}..HEAD`
