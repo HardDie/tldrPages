@@ -46,3 +46,8 @@
 
 - Documentation. Add ?m=all to URL to display internal packages
 `godoc -http={{:3000}}`
+
+- Generate and show test coverate
+`go test -v -cover -race -coverprofile {{cover.out}} {{./...}}`
+`go tool cover -func={{cover.out}}`
+`go tool cover -html={{cover.out}} -o {{/path/cover.html}}`
