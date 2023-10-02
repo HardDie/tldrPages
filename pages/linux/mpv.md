@@ -28,3 +28,6 @@
 
 - Volume
 `9 or 0`
+
+- Save position
+`mpv --save-position-on-quit {{video}}`
