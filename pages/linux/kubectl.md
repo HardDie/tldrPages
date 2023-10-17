@@ -19,3 +19,9 @@
 
 - How to forward port from pod
 `kubectl port-forward {{pod_name}} {{port}}`
+
+- Set default namespace for context
+`kubectl config set-context {{my-context}} --namespace={{mystuff}}`
+
+- Use context
+`kubectl config use-context {{my-context}}`
