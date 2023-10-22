@@ -60,3 +60,12 @@
 
 - How to get table creation command
 `pg_dump -U {{username}} -d {{database}} -t {{table}} --schema-only`
+
+- Get info about table sizes
+`SELECT`
+`   relname  as table_name,`
+`   pg_size_pretty(pg_total_relation_size(relid)) As "Total Size",`
+`   pg_size_pretty(pg_indexes_size(relid)) as "Index Size",`
+`   pg_size_pretty(pg_relation_size(relid)) as "Actual Size"`
+`   FROM pg_catalog.pg_statio_user_tables `
+`ORDER BY pg_total_relation_size(relid) DESC;`
