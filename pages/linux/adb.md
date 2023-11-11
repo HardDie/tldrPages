@@ -13,3 +13,6 @@
 
 - Uninstall packet
 `pm uninstall -k --user 0 {{packet}}`
+
+- Restore packet
+`cmd package install-existing {{packet}}`
