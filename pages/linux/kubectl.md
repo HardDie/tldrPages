@@ -25,3 +25,9 @@
 
 - Use context
 `kubectl config use-context {{my-context}}`
+
+- Delete pod
+`kubectl delete pod {{pod_name}}`
+
+- List of containers inside pod
+`kubectl get pod {{pod_name}} -o jsonpath="{.spec['initContainers','containers'][*].name}"`
