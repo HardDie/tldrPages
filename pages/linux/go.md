@@ -51,3 +51,7 @@
 `go test -v -cover -race -coverprofile {{cover.out}} {{./...}}`
 `go tool cover -func={{cover.out}}`
 `go tool cover -html={{cover.out}} -o {{/path/cover.html}}`
+
+- Escape analys
+`go build -gcflags "-m -l" {{main.go}}`
+`go build -gcflags "-m=2" {{main.go}}`
