@@ -22,3 +22,7 @@
 
 - Loop
 `for {{val}} in {{{01..10};}} do {{echo $val;}} done`
+
+- Loop array
+`arr=("val1" "val2")`
+`for val in ${arr[*]}; do echo ${val}; done`
