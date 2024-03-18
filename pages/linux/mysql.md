@@ -7,3 +7,6 @@
 
 - Info about table
 `DESCRIBE {{table}}`
+
+- Add index
+`ALTER TABLE {{table}} ADD INDEX {{index_name_idx}} USING HASH ({{field}});`
