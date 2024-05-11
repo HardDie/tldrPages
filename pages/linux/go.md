@@ -55,3 +55,6 @@
 - Escape analys
 `go build -gcflags "-m -l" {{main.go}}`
 `go build -gcflags "-m=2" {{main.go}}`
+
+- Disable proxy cache
+`go env -w GOPROXY=direct`
