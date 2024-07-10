@@ -28,3 +28,6 @@
 
 - How to login on private repository
 `docker login`
+
+- Clean build cache
+`docker builder prune`
