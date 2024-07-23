@@ -1,4 +1,4 @@
-# systemd
+# systemd-boot
 
 > How to setup systemd boot
 
