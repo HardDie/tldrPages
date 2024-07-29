@@ -35,3 +35,6 @@
 
 - List of images to pdf
 `convert {{img1.png}} {{img2.png}} {{output.pdf}}`
+
+- Join images on grid
+`montage {{img1.png}} {{img2.png}} -tile {{2x1}} -geometry {{+0+0}} {{hello.png}}`
