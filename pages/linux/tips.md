@@ -5,3 +5,6 @@
 
 - Convert seconds to time
 `date -d@{{123}} -u +%H:%M:%S`
+
+- Select all hidden files
+`ls .[^.]*`
