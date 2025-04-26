@@ -4,3 +4,6 @@
 
 - Split
 `ctrl+i`
+
+- To zero crossing
+`z`
