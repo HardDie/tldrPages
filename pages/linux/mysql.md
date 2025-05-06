@@ -10,3 +10,9 @@
 
 - Add index
 `ALTER TABLE {{table}} ADD INDEX {{index_name_idx}} USING HASH ({{field}});`
+
+- Group column
+`SELECT {{id}}, GROUP_CONCAT({{value}}) FROM {{table}} GROUP BY {{id}}`
+
+- Get first from array
+`SELECT SUBSTRING_INDEX({{arr}}, ',', 1) FROM {{table}}`
