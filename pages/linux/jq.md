@@ -7,3 +7,9 @@
 
 - Ignore other lines
 `jq -R 'fromjson?'`
+
+- Print multiple fields
+`jq -r '"\(.{{item1}}) \(.{{item2}})"'`
+
+- Filter by field
+`jq 'select(.{{field}} == "{{Value}}")'`
