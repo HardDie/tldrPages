@@ -16,3 +16,6 @@
 
 - Get first from array
 `SELECT SUBSTRING_INDEX({{arr}}, ',', 1) FROM {{table}}`
+
+- Get json value
+`SELECT {{c}}, JSON_EXTRACT({{c}}, "$.{{id}}") FROM {{table}}`
