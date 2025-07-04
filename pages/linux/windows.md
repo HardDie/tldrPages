@@ -16,3 +16,6 @@
 
 - Setup autorun
 `msconfig`
+
+- Startup
+`shell:startup`
